@@ -1,0 +1,39 @@
+.target {
+  background: white;
+  border: 1px solid black;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+
+.box{
+  float: left;
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  position: absolute;
+  cursor: grab;
+}
+/*.box::after {*/
+  /*content: '';*/
+  /*position: absolute;*/
+  /*left: 140px;*/
+  /*top: 150px;*/
+  /*border: 30px solid transparent;*/
+  /*border-top: 20px solid black;*/
+/*}*/
+#div2{
+  float: left;
+  width: 400px;
+  height: 200px;
+  margin: 200px;
+  padding: 50px;
+  border: 2px solid black;
+  font-size: 40px;
+  text-align: center;
+}
+
+

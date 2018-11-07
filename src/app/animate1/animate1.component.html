@@ -1,0 +1,18 @@
+<button
+  class="btn btn-primary"
+  (click)="isVisible = !isVisible"
+>Переключить
+</button>
+<hr>
+<div
+  @DivTrigger
+  class="alert  alert-danger"
+  *ngIf="isVisible"
+>
+  Lorem dolor bax
+</div>
+<!--<hr>-->
+<!--<div-->
+  <!--[@DivSize]="isVisible ? 'a' : 'b'"-->
+  <!--style="height: 50px; width: 200px; background-color: red"-->
+<!--&gt;</div>-->

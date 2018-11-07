@@ -1,0 +1,9 @@
+<!--<div-->
+  <!--(mousedown)="stateDiv='active'"-->
+  <!--(click)="changeDiv()"-->
+  <!--[@clickDiv]="stateDiv"-->
+<!--&gt;</div>-->
+<div
+  (click)="multiState = multiState === 'start' ? 'end' : 'start'"
+ [@multi]="multiState"
+></div>
